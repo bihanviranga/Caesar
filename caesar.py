@@ -95,7 +95,7 @@ def decode(msg,key=0):
 
 		print(output)
 	else:
-		for i in range(0,26):
+		for i in range(1,26):
 			decode(msg,i)
 
 

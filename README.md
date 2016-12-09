@@ -19,6 +19,8 @@ Note that numbers and other characters in the input will remain unchanged.
 
 		key :
 			The key that should be used / has been used to encrypt.
+			While decoding, enter 0 as the key to brute-force all possible keys.
+
 
 		input :
 			The message that should be encrypted. Numbers and other characters will be ignored.

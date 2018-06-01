@@ -93,7 +93,7 @@ def decode(msg,key=0):
 
 			output+=(alphabet[newIndex])
 
-		print(output)
+		print(output,"\tKey=",key)
 	else:
 		for i in range(1,26):
 			decode(msg,i)
